@@ -2,8 +2,8 @@ PATH
   remote: .
   specs:
     decidim-term_customizer (0.20.0)
-      decidim-admin (~> 0.20.0)
-      decidim-core (~> 0.20.0)
+      decidim-admin (>= 0.20.0)
+      decidim-core (>= 0.20.0)
 
 GEM
   remote: https://rubygems.org/
@@ -748,9 +748,9 @@ DEPENDENCIES
   byebug (~> 11.0)
   codecov
   dalli (~> 2.7, >= 2.7.10)
-  decidim (~> 0.20.0)
-  decidim-consultations (~> 0.20.0)
-  decidim-dev (~> 0.20.0)
+  decidim (>= 0.20.0)
+  decidim-consultations (>= 0.20.0)
+  decidim-dev (>= 0.20.0)
   decidim-term_customizer!
   faker (~> 1.9)
   letter_opener_web (~> 1.3)
@@ -763,7 +763,7 @@ DEPENDENCIES
   web-console (~> 3.5)
 
 RUBY VERSION
-   ruby 2.6.5p114
+   ruby 2.6.3p62
 
 BUNDLED WITH
-   2.0.2
+   2.1.4
